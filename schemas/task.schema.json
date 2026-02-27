@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Agent Task Specification",
+  "type": "object",
+  "required": ["task_id", "input", "constraints", "expected_output"],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "input": {
+      "type": "object"
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "policy": { "type": "object" },
+        "business_rules": { "type": "object" }
+      }
+    },
+    "expected_output": {
+      "type": "object"
+    },
+    "execution": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "stateful": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+Agent-Native Department Specification License v0.1
+
+Copyright (c) 2026 SLASHLIFE AI, UNIPESSOAL LDA
+
+Permission is granted to use, implement, and reference this specification
+for the purpose of building systems compatible with the Agent-Native Department model.
+
+Conditions:
+
+1. Attribution:
+   Implementations and references must acknowledge the original specification.
+
+2. No Forked Standards:
+   This specification may not be modified and redistributed as an alternative or competing standard.
+
+3. Compatibility:
+   Any implementation claiming compatibility must adhere to the core requirements defined in this specification.
+
+4. Commercial Use:
+   Commercial use of implementations based on this specification is permitted.
+
+This license does not grant permission to rebrand, redefine, or publish modified versions
+of this specification as a new standard.
+
+For inquiries, contact:
+SLASHLIFE AI, UNIPESSOAL LDA
